@@ -1,0 +1,25 @@
+	Bugs encontrados:
+	
+	Bug Encontrado - #BUG001.001 (Campo CPF aceitando letras) – Estado: Aberto
+	Encontrado por: Felipe Patrocinio
+	Produto: DesafioQA
+	Local: Página de cadastro
+	Versão: Ambiente produtivo no dia 16/01/2023
+	Ambiente de execução: Microsoft Edge - Versão 107.0.1418.56 (Compilação oficial) (64 bits)
+	Severidade: Altíssima
+	Impacto: Todos os usuários estão conseguindo se cadastrar preenchendo um CPF inválido com letras
+	Responsável: @Felipe.PatrocinioQAJr
+	Descrição técnica: Ao acessar o Url/cadastro preencher letras no campo CPF e tentar se cadastrar o sistema está aceitando normalmente
+	
+	Evidência #CT001.001:
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	IMPRIMIR DO BUG...
