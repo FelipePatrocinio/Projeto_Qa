@@ -7,7 +7,7 @@ Título: Cadastro de usuário
 	Quando o usuário inserir nome, Email, CPF, e senha válidos
 	Então o cadastro na plataforma é realizado com sucesso
 	
-	Testículos negativos
+	Testes negativos
 	
 	CT002
 	Dado que um usuáro não cadastrado acesse a página de cadastro
