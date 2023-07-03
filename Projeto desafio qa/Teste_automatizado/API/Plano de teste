@@ -1,0 +1,105 @@
+### Plano de teste – Tela de cadastro
+
+### Introdução
+
+Exemplo: O serviço uma plataforma onde os interessados criam cadastro na plataforma, 
+compram o curso desejado a partir daí conseguem acessar a plataforma onde os cursos comprados são vinculados ao seu perfil, 
+podendo assim assistir e conforme vão assistindo as aulas os vídeos são marcados como assistido, 
+no final de cada módulo há uma ou duas atividades para conclusão de módulo, sendo avaliada por mentores.
+
+### Arquitetura
+
+O framework utilizado para a implementação é baseado em um banco de dados SQL, tudo será desenvolvido em JAVA.
+
+### Funcionalidades
+- Tela de cadastro
+Ao digitar nome, e-mail, número de telefone e senha e clicar no botão “Conecte-se” o 
+usuário deverá ser direcionado para tela seguinte onde irá receber orientações de como 
+continuar seu cadastro, deverá verificar em sua caixa de entrada no E-mail cadastrado um 
+E-mail de validação da sua conta e então poderá efetuar o login normalmente a partir daí.
+A senha deverá ter no mínimo 8 caracteres e deve conter letras e números.
+Redirecionar o usuário para a tela seguinte com os próximos passos
+Exibir a mensagem de falha em caso de usuário já cadastrado
+Exibir mensagem de falha caso as senhas não coincidirem
+Exibir mensagem de falha em caso algum campo estiver sem preencher.
+- Tela para editar usuário
+- Menu
+- Página inicial
+- Menu AVA
+
+### Comportamento esperado
+
+### Verificações
+- Usuário de E-mail novo
+- Usuário válido
+- Senha válida
+- E-mail válido
+- Telefone válido.
+- Login
+Ao digitar Login e senha correto e clicar no botão “login” o sistema deverá redirecionar o usuário para tela inicial da plataforma.
+Login do sistema com sucesso
+Usuário ou senha incorreta
+Por favor, preencha todos os campos em branco.
+Ter acesso ao sistema.
+Meus cursos
+Ao acessar “meus cursos” o usuário terá acesso a todos os módulos e aulas de acordo com a liberação e poderá assistir às aulas em ordem ou não.
+
+### Critérios de aceite
+
+### Estratégias de teste
+
+Escopo do teste
+O plano de teste abrange todas as funcionalidades descritas acima
+
+Serão executados testes em todos os níveis conforme a descrição abaixo;
+
+### Testes de integração 
+
+Serão executados testes de integração em todos os endpoints e esses testes serão de responsabilidade do time de qualidade;
+Testes automatizados: Serão realizados testes End-to-end na funcionalidade de login;
+
+### Testes manuais
+
+Todas as funcionalidades serão testadas manualmente pelo time de qualidade seguindo a documentação de Cenários de teste e destes Test Plan
+Versão Beta: Será lançada uma versão beta para 20 usuários pré-cadastrados antes do release.
+ 
+### Ambiente e ferramentas
+Os testes serão feitos no ambiente de DEV e QA e contém as mesmas configurações do ambiente de produção com uma massa de dados gerada previamente pelo time de qualidade.
+
+Serão utilizadas nos testes as seguintes ferramentas:
+
+### Ferramenta
+
+- POSTMAN
+- CYPRESS
+- JMETER
+- ZEPHYR
+
+### Classificação de Bugs
+
+Os bugs serão classificados com as seguintes severidades:
+
+### Nível de severidade
+
+- Blocker
+Bug que bloqueia o teste de uma função ou feature causa crash na aplicação
+Botão não funciona impedindo o uso completo da funcionalidade
+Bloqueia a entrega
+
+- Grave
+Funcionalidade não funciona como esperado
+Input incomum causa efeitos irreversíveis
+
+- Moderada
+A funcionalidade não atinge certos critérios de aceitação, mas sua funcionalidade em geral não é afetada.
+Mensagem de erro ou sucesso não é exibida
+
+- Pequena
+Quase nenhum impacto na funcionalidade, porém, atrapalha a experiência.
+Erro ortográfico
+Pequenos erros de UI.
+
+### Definição de pronto
+
+Será considerada pronta as funcionalidades que passarem pelas verificações e testes descritos neste "Test Plan" 
+não apresentarem bugs com a severidade acima de minor, e passarem por uma validação de negócio de responsabilidade do time de produto.
